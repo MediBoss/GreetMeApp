@@ -9,6 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+   
+    
+    @IBOutlet weak var input: UITextField! // The text field
+    @IBOutlet weak var output: UITextView! // The text view
+    
+    @IBAction func output(_ sender: UIButton) {
+        
+        
+        guard let str = self.input.text else {return}
+        self.output.text = "Hello \(str)"
+        
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
