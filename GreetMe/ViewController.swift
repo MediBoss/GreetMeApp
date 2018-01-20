@@ -20,9 +20,39 @@ class ViewController: UIViewController {
         
         
         guard let str = self.input.text else {return}
-        self.output.text = "Hello \(str)"
         
+        //Printing the output
+        self.output.text = "\(english(str)) \n\n \(french(str)) \n\n \(spanish(str)) \n\n \(german(str)) \n\n \(swahili(str ))"
     }
+    
+    //functions for different languages
+    
+    func english(_ name : String) -> String{
+        
+        return "Hello \(name) 🇺🇸"
+    }
+    
+    func french(_ name : String) -> String{
+        
+        return "Bonjour \(name) 🇫🇷"
+    }
+    
+    func spanish(_ name : String) -> String{
+        
+        return "Hola \(name) 🇪🇸"
+    }
+    
+    func german(_ name: String) -> String{
+        
+        return "Hallo \(name) 🇩🇪"
+    }
+    
+    func swahili(_ name : String) ->String{
+        
+        return "Jambo \(name) 🇰🇪"
+    }
+    
+    //END OF FUNCTIONS
     
 
     override func viewDidLoad() {
