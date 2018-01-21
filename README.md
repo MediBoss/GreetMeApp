@@ -5,7 +5,7 @@
  #### Date : 01.19.2018
  
  
-#### Purpose : This is a simple single view iOS app that take a string of name as input, and greet the user in Seven Language:
+#### Purpose: This is a simple single view iOS app that take a string of name as input, and greet the user in Seven Languages:
 
 * English
 * French
@@ -14,6 +14,8 @@
 * Swahili
 * Japanese
 * Arabic
+
+
 
 
 
