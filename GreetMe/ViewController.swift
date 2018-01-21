@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         guard let str = self.input.text else {return}
         
         //Printing the output
-        self.output.text = "\(english(str)) \n\n \(french(str)) \n\n \(spanish(str)) \n\n \(german(str)) \n\n \(swahili(str ))"
+        self.output.text = "\(english(str)) \n\n \(french(str)) \n\n \(spanish(str)) \n\n \(german(str)) \n\n \(swahili(str)) \n\n \(japanese(str)) \n\n \(arabic(str))"
     }
     
     //functions for different languages
@@ -50,6 +50,18 @@ class ViewController: UIViewController {
     func swahili(_ name : String) ->String{
         
         return "Jambo \(name) 🇰🇪"
+    }
+
+   func japanese(_ name : String) -> String{
+
+	
+	return "こんにちは \(name) 🇯🇵"	
+    }
+
+   func arabic(_ name : String) -> String{
+
+     
+      return "مرحبا \(name) 🇸🇦"
     }
     
     //END OF FUNCTIONS
