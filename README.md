@@ -15,7 +15,7 @@
 * Japanese
 * Arabic
 
-![](images/Screen%20Shot%202018-01-21%20at%205.51.03%20PM.jpg
+
 
 
 
