@@ -1,4 +1,4 @@
- #                             GreetMeApp
+ #                             GreetMeApp : My First iOS App
  
  #### Technoly : Swift 4, Xcode 9
  #### Developer : Medi W. Assumani
