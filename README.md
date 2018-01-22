@@ -15,7 +15,7 @@
 * Japanese
 * Arabic
 
-![](images\photo1%20.jpg)
+<img src="images\photo1.jpg">
 
 
 
