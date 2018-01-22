@@ -15,7 +15,9 @@
 * Japanese
 * Arabic
 
-<img src="images\photo1.jpg">
+
+<img src="images\photo2.jpg"> <img src="images\photo1.jpg">
+
 
 
 
